@@ -48,7 +48,7 @@ body {
     width: 345px;
     height: 330px;
     font-size: 20px;
-    color: var(--cortitulo);
+    color: var(--corterciaria);
     background: transparent;
     box-shadow: none;
     border: none;
@@ -68,4 +68,8 @@ body {
     margin-right: 3%;
 }
 
-
+#output h2 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--corterciaria);
+}
