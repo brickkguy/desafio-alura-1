@@ -51,26 +51,37 @@ body {
     color: var(--corterciaria);
     background: transparent;
     box-shadow: none;
-    border: none;
     resize: none;
     outline: 0;
     padding: 10px;
     text-transform: uppercase;
 }
 
-#output{
+#output {
     display: flex;
     flex-direction: column;
     border: 3px solid var(--corterciaria);
+    padding: 30px;
     border-radius: 20px;
     width: 350px;
     height: 400px;
     margin-right: 3%;
 }
 
+#output img {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+    margin-top: 4%;
+    padding-left: 75px;
+}
+
 #output h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     color: var(--corterciaria);
 }
 
@@ -79,16 +90,8 @@ body {
     text-align: center;
 }
 
-#output img {
-    max-width: 300px;
-    max-height: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 4%;
-}
-
 .container-btn button{
-    border: 2px solid var(--cortitulo);
+    border: 2px solid var(--corterciaria);
     border-radius: 10px;
     text-decoration: none;
     color: var(--corprimaria);
