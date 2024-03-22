@@ -51,6 +51,7 @@ body {
     color: var(--corterciaria);
     background: transparent;
     box-shadow: none;
+    border: none;
     resize: none;
     outline: 0;
     padding: 10px;
@@ -64,7 +65,7 @@ body {
     padding: 30px;
     border-radius: 20px;
     width: 350px;
-    height: 400px;
+    height: px;
     margin-right: 3%;
 }
 
