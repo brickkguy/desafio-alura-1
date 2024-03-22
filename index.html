@@ -14,7 +14,7 @@
             <h1>Mensagens criptografadas:</h1>
         </header>
     <div class="container-input">
-        <div class="input">
+        <div id="input">
             <textarea id="input-texto" placeholder="Digite sua mensagem aqui."></textarea>
             <p>ATENÇÃO: Apenas letras maiúsculas sem acento.</p>
         </div>
@@ -28,8 +28,8 @@
 
     <div class="botoes">
         <div class="container-btn">
-            <button class="btn-criptografar">Criptografar</button>
-            <button class="btn-descriptografar">Descriptografar</button>
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
         </div>
     </div>
     </main>
